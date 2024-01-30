@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "lite",
+    "slug": "lite",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.lite"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.lite"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": [
+      "lite",
+      "instalite1836943790088849"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "dd054aed-bea1-4ca7-85c3-1014d6e41fba"
+      }
+    },
+    "owner": "drnguillaume"
+  }
+}
